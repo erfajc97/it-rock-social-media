@@ -113,6 +113,14 @@ Abre [http://localhost:6006](http://localhost:6006)
 - `npm run storybook` - Inicia Storybook
 - `npm run build-storybook` - Build de Storybook
 
+## 📄 Deploy
+- Creacion de cuenta en Vercel
+- Vincular con github
+- Agregar nuevo proyecto para deploy
+- Escoger la rama para los pipelines (main)
+- Configurar variables de entorno
+- Deployar URL= https://it-rock-social-media.vercel.app
+
 ## 👨‍💻 Autor
 
 Erick Jimenez Challenge Técnico de IT Rock
