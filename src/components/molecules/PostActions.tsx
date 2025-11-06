@@ -33,23 +33,23 @@ export function PostActions({
     <div className="flex items-center justify-between pt-3 border-t border-gray-200">
       <IconButton
         icon={<HeartIcon isFilled={isLiked} />}
-        label={likes > 0 ? likes.toString() : "Me gusta"}
+        label={likes > 0 ? likes.toString() : ""}
         active={isLiked}
         onClick={onLike}
       />
       <IconButton
         icon={<CommentIcon />}
-        label={comments > 0 ? comments.toString() : "Comentar"}
+        label={comments > 0 ? comments.toString() : ""}
         onClick={onComment}
       />
       <IconButton
         icon={<ShareIcon />}
-        label={shares > 0 ? shares.toString() : "Compartir"}
+        label={shares > 0 ? shares.toString() : ""}
         onClick={onShare}
       />
       <IconButton
         icon={<StarIcon isFilled={isFavorited} />}
-        label={isFavorited ? "Favorito" : "Favorito"}
+        label={isFavorited ? "Favorito" : ""}
         active={isFavorited}
         onClick={onFavorite}
       />
